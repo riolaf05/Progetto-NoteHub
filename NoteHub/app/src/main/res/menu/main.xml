@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:NoteHub="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <item
+        android:id="@+id/bacheca"
+        android:orderInCategory="100"
+        NoteHub:showAsAction="ifRoom"
+        android:title=""
+        />
+    <item
+        android:id="@+id/appunti"
+        android:orderInCategory="105"
+        NoteHub:showAsAction="never"
+        android:title="@string/appunti"
+        />
+    <item
+        android:id="@+id/post"
+        android:orderInCategory="106"
+        NoteHub:showAsAction="never"
+        android:title="@string/post"
+        />
+
+
+</menu>

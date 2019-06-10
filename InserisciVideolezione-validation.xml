@@ -1,0 +1,21 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+        
+<validators>
+
+  <field name="videolezione.url">
+  
+      <field-validator type="urlFormat">
+         <message>URL non valido!</message> <!-- da togliere: il messaggio hard coded -->
+      </field-validator>
+      
+  </field>
+  
+  
+  
+</validators>
+
+
+
+
+

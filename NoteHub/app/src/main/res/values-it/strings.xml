@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteHub</string>
+    <string name="nodata">Nessun dato</string>
+    <string name="title_activity_main">AsyncTask Activity</string>
+    <string name="url">"http://10.0.2.2:8080/ProgettoWeb_PJAM/mobile/RicercaAppunti.action"</string>
+    <string name="urlPost">"http://10.0.2.2:8080/ProgettoWeb_PJAM/mobile/RicercaPost.action"</string>
+    <string name="running">Running</string>
+    <string name="conser">Contacting Web Server!</string>
+    <string name="videolezioni">Videolezioni</string>
+    <string name="appunti">Appunti</string>
+    <string name="post">Post</string>
+    <string name="visualizzaAppunti">Visualizza gli Appunti</string>
+    <string name="visualizzaPost">Visualizza i Post</string>
+    <string name="visualizzaVideolezioni">Visualizza le videolezioni</string>
+    <string name="listaAppunti">Lista Appunti</string>
+    <string name="download">Esegui il download dell\'appunto:</string>
+    <string name="view">Visualizza l\'appunto:</string>
+    <string name="listaPost">Lista Post</string>
+    <string name="pulsanteDownload">Avvia il download</string>
+    <string name="pulsanteVisualizza">Visualizza</string>
+</resources>

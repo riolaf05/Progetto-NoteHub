@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:background="@drawable/icona" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:text="@string/visualizzaAppunti"
+        android:textColor="@color/coloreBottoni"
+        android:layout_weight="0.75" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/background"
+        android:text="@string/visualizzaPost"
+        android:textColor="@color/coloreBottoni"
+        android:layout_weight="0.28" />
+
+
+
+</LinearLayout>
